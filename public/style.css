@@ -1,4 +1,10 @@
 /* styles.css */
+
+/* Tailwind config */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   font-family: Arial, sans-serif;
   display: flex;
@@ -20,4 +26,12 @@ body {
 button {
   margin-top: 20px;
   padding: 10px 15px;
+}
+
+.btn {
+  background-color: #ffdddd;
+  color: #91009b;
+  border: 0;
+  border-radius: 7px;
+  cursor: pointer;
 }

@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
-    <link rel="stylesheet" href="styles.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-    <div id="quiz-container">
-        <h1>Quiz</h1>
+<body class="bg-emerald-200">
+    <div class="bg-green-300 m-3 p-4 rounded-lg" id="quiz-container">
+        <h1 class="text-[24px] text-blue-700 font-semibold font-serif">Quiz</h1>
         <div id="question-container">
             <p id="question"></p>
-            <div id="options"></div>
+            <button class="border-slate-800" id="options"></button class="border-slate-800">
         </div>
-        <button id="next-button" onclick="nextQuestion()">Next</button>
+        <button id="next-button" class="btn btn-next" onclick="nextQuestion()">Next</button>
         <p id="result"></p>
     </div>
     <script src="script.js"></script>
