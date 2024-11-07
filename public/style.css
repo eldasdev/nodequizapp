@@ -1,0 +1,23 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#quiz-container {
+  text-align: center;
+  max-width: 600px;
+}
+
+#options {
+  margin-top: 15px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 15px;
+}

@@ -1,0 +1,22 @@
+[
+  {
+      "question": "What influences the decision-making process in an organization?",
+      "options": [
+          "State of the external and internal environment",
+          "State of the internal environment",
+          "Decisions depend only on decision-makers",
+          "Only the state of the external environment"
+      ],
+      "answer": "State of the external and internal environment"
+  },
+  {
+      "question": "What is the goal of combining strategy and culture?",
+      "options": [
+          "Long-term nature",
+          "Short-term nature",
+          "Medium-term nature",
+          "Intermediate character"
+      ],
+      "answer": "Long-term nature"
+  }
+]
